@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.8" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="scrollPane2" alignment="1" pref="657" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="scrollPane2" alignment="1" pref="495" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="scrollPane2">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel1">
+          <Properties>
+            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[204, 750]"/>
+            </Property>
+          </Properties>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+            <Property name="useNullLayout" type="boolean" value="false"/>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel2">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="18" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="66" green="66" red="0" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Bienvenido a terminos y condiciones"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="210" y="20" width="-1" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="scrollPane">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="10" y="410" width="620" height="320"/>
+                </Constraint>
+              </Constraints>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="text">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="6a" green="8e" red="bd" type="rgb"/>
+                    </Property>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Segoe UI" size="14" style="0"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="text" type="java.lang.String" value="&quot;Malware Inc no se hace responsable de las acciones tomadas por el usuario al usar este software, &#xa; tales como el acceso a p&#xe1;ginas web externas o la manipulaci&#xf3;n de informaci&#xf3;n personal.&quot;&#xa;&#xa;A. Uso Gratuito: El uso de este programa es completamente gratuito para el usuario final. No se &#xa;cobrar&#xe1; ning&#xfa;n costo por su descarga ni uso.&#xa;&#xa;B. Distribuci&#xf3;n Libre: Puedes distribuir el programa libremente, siempre y cuando se mantengan &#xa;intactos estos t&#xe9;rminos y condiciones. Queda prohibida la redistribuci&#xf3;n con fines comerciales o la &#xa;modificaci&#xf3;n del programa para integrarlo en otros productos de pago.&#xa;&#xa;C. Desarrollo Continuo: Este programa est&#xe1; en constante desarrollo. Si encuentras alg&#xfa;n error o &#xa;inconveniente, ten en cuenta que las versiones futuras corregir&#xe1;n estos problemas. Las nuevas &#xa;actualizaciones estar&#xe1;n disponibles de forma peri&#xf3;dica.&#xa;&#xa;D. Actualizaciones: Las actualizaciones del programa se publicar&#xe1;n en la p&#xe1;gina oficial de Malware Inc. &#xa;Puedes acceder a ellas a trav&#xe9;s del siguiente enlace: &#xa;https://www.facebook.com/Malware-Inc-103940839347349&#xa;&#xa;E. Apoyo y Contribuciones: Si deseas apoyar el proyecto de H&#xe9;ctor Villegas del AD CENTRO CRISTIANO &#xa;MISIONERO, puedes hacerlo visitando su perfil de Facebook aqu&#xed;: &#xa;https://www.facebook.com/profile.php?id=100070849676473&#xa;&#xa;F. Errores y Correcciones: Si encuentras errores, ya sea ortogr&#xe1;ficos o t&#xe9;cnicos, por favor notif&#xed;calos a &#xa;trav&#xe9;s del sitio oficial. Estos ser&#xe1;n corregidos en futuras versiones para mejorar la experiencia del &#xa;usuario.&#xa;&#xa;G. Uso de Materiales: Todos los materiales incluidos en el programa, como c&#xf3;digos, gr&#xe1;ficos, textos, &#xa;etc., deben ser utilizados de manera responsable y respetando las leyes de propiedad intelectual &#xa;aplicables. Este software no est&#xe1; destinado para su distribuci&#xf3;n o modificaci&#xf3;n sin la debida autorizaci&#xf3;n.&#xa;&#xa;H. Prohibici&#xf3;n de Venta: Queda estrictamente prohibida la venta, comercializaci&#xf3;n o redistribuci&#xf3;n del &#xa;programa o cualquier material asociado con fines comerciales. Esto incluye, pero no se limita a, la &#xa;venta directa, la distribuci&#xf3;n a trav&#xe9;s de plataformas comerciales o su integraci&#xf3;n en productos o &#xa;servicios pagos.&#xa;&#xa;I. Licencia Privativa: Este software no es de c&#xf3;digo abierto (open source) y su uso est&#xe1; restringido &#xa;por los t&#xe9;rminos de esta licencia. No se permite la modificaci&#xf3;n del c&#xf3;digo fuente sin permiso expl&#xed;cito &#xa;de los desarrolladores.&#xa;&#xa;J. Responsabilidad sobre Base de Datos: La informaci&#xf3;n almacenada en la base de datos es &#xa;responsabilidad exclusiva del usuario. Malware Inc no tiene acceso, control ni capacidad de &#xa;manipulaci&#xf3;n sobre los datos ingresados, ya que estos se guardan de forma local y privada, salvo &#xa;que el propio usuario decida compartirlos. La protecci&#xf3;n y correcto uso de dicha informaci&#xf3;n recae &#xa;&#xfa;nicamente sobre el usuario.&#xa;&#xa;K. Uso de C&#xf3;digo Privado: Est&#xe1; estrictamente prohibido el uso, copia o distribuci&#xf3;n de cualquier &#xa;c&#xf3;digo privado del software sin autorizaci&#xf3;n expresa. Malware Inc se reserva el derecho de tomar &#xa;acciones legales ante cualquier uso indebido. Solo se permite el uso y distribuci&#xf3;n de c&#xf3;digos &#xa;clasificados como open source publicados por Malware Inc en repositorios p&#xfa;blicos como GitHub o &#xa;SourceForge, accesibles mediante descarga directa.&#xa;&#xa;L. Disfruta del Programa: Agradecemos que utilices nuestro software. Esperamos que sea una &#xa;herramienta &#xfa;til y eficaz en tu estudio. &#xa1;Disfruta del programa! :)"/>
+                    <Property name="caretPosition" type="int" value="0"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="jLabel1">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Recursos/images/terminos.png"/>
+                </Property>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="-80" y="-10" width="-1" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
